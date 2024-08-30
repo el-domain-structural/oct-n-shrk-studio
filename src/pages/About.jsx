@@ -1,12 +1,22 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Footer from '../components/Footer';
+import { Link } from 'react-router-dom';
+import { Button } from "@/components/ui/button";
+import { HomeIcon } from 'lucide-react';
 
 const About = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
+          <div className="mb-8 flex justify-start">
+            <Button asChild variant="outline">
+              <Link to="/" className="flex items-center">
+                <HomeIcon className="mr-2 h-4 w-4" /> Home
+              </Link>
+            </Button>
+          </div>
           <h1 className="text-4xl font-bold text-center mb-12">About African Adventures</h1>
           <Card>
             <CardHeader>
