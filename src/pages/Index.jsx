@@ -13,7 +13,7 @@ const blogPosts = [
     id: 2,
     title: "Climbing Mount Kilimanjaro: A Journey to the Roof of Africa",
     excerpt: "Experience the thrill of ascending Africa's highest peak and witness breathtaking views from the summit.",
-    imageUrl: "https://images.unsplash.com/photo-1589553416260-110fb8dc9e52?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    imageUrl: "https://images.unsplash.com/photo-1609198092458-38a293c7ac4b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
   },
   {
     id: 3,
