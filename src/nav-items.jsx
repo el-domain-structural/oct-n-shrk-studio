@@ -1,15 +1,12 @@
-import { PalmtreeIcon, InfoIcon } from "lucide-react";
+import { HomeIcon, InfoIcon, CameraIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import About from "./pages/About.jsx";
 
-/**
- * Central place for defining the navigation items. Used for navigation components and routing.
- */
 export const navItems = [
   {
-    title: "African Adventures",
+    title: "Home",
     to: "/",
-    icon: <PalmtreeIcon className="h-4 w-4" />,
+    icon: <HomeIcon className="h-4 w-4" />,
     page: <Index />,
   },
   {
@@ -17,5 +14,11 @@ export const navItems = [
     to: "/about",
     icon: <InfoIcon className="h-4 w-4" />,
     page: <About />,
+  },
+  {
+    title: "Gallery",
+    to: "/gallery",
+    icon: <CameraIcon className="h-4 w-4" />,
+    page: <Index />, // For now, we'll use the Index page for the gallery
   },
 ];
