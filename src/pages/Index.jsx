@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Navigation from '../components/Navigation';
 import PhotoGallery from '../components/PhotoGallery';
 import Footer from '../components/Footer';
+import WorkerCarousel from '../components/WorkerCarousel';
 
 const Index = () => {
   return (
@@ -26,7 +27,9 @@ const Index = () => {
               <Button className="bg-rainbow-violet hover:bg-rainbow-indigo text-white">Discover the Magic</Button>
             </CardContent>
           </Card>
-          <h2 className="text-2xl font-semibold mb-4 text-red-700">Our Enchanted Gallery</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-red-700">Our Enchanted Team</h2>
+          <WorkerCarousel />
+          <h2 className="text-2xl font-semibold my-8 text-red-700">Our Enchanted Gallery</h2>
           <PhotoGallery />
         </div>
       </div>
