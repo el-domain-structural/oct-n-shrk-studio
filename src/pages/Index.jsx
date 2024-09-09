@@ -5,6 +5,7 @@ import Navigation from '../components/Navigation';
 import PhotoGallery from '../components/PhotoGallery';
 import Footer from '../components/Footer';
 import WorkerCarousel from '../components/WorkerCarousel';
+import Castle360View from '../components/Castle360View';
 
 const Index = () => {
   return (
@@ -29,6 +30,8 @@ const Index = () => {
           </Card>
           <h2 className="text-2xl font-semibold mb-4 text-red-700">Our Enchanted Team</h2>
           <WorkerCarousel />
+          <h2 className="text-2xl font-semibold my-8 text-red-700">Our Magical Castle</h2>
+          <Castle360View />
           <h2 className="text-2xl font-semibold my-8 text-red-700">Our Enchanted Gallery</h2>
           <PhotoGallery />
         </div>
