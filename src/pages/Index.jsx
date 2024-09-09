@@ -7,23 +7,23 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gradient-to-b from-rainbow-red via-rainbow-yellow to-rainbow-violet">
       <Navigation />
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12">GOOD FRIENDS FOUNDATION</h1>
-          <Card className="mb-8">
+          <h1 className="text-4xl font-bold text-center mb-12 text-white">GOOD FRIENDS FOUNDATION</h1>
+          <Card className="mb-8 bg-white bg-opacity-80 backdrop-filter backdrop-blur-lg">
             <CardHeader>
-              <CardTitle>Our Mission</CardTitle>
+              <CardTitle className="text-rainbow-indigo">Our Magical Mission</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4">
-                The GOOD FRIENDS FOUNDATION is dedicated to fostering friendship, community support, and positive change in society. We believe that strong friendships and community bonds are the foundation of a better world.
+              <p className="mb-4 text-rainbow-blue">
+                The GOOD FRIENDS FOUNDATION is dedicated to spreading joy, friendship, and rainbow magic throughout the world. We believe that unicorns, rainbows, and the power of friendship can create a more colorful and harmonious society.
               </p>
-              <Button>Learn More</Button>
+              <Button className="bg-rainbow-violet hover:bg-rainbow-indigo text-white">Discover the Magic</Button>
             </CardContent>
           </Card>
-          <h2 className="text-2xl font-semibold mb-4">Our Impact</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-white">Our Enchanted Gallery</h2>
           <PhotoGallery />
         </div>
       </div>
