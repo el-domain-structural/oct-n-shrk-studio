@@ -12,6 +12,9 @@ const Index = () => {
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-12 text-white">GOOD FRIENDS FOUNDATION</h1>
+          <div className="animate-unicorn-fly mb-8">
+            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32" alt="Flying Unicorn" className="w-32 h-32 mx-auto" />
+          </div>
           <Card className="mb-8 bg-white bg-opacity-80 backdrop-filter backdrop-blur-lg">
             <CardHeader>
               <CardTitle className="text-rainbow-indigo">Our Magical Mission</CardTitle>
