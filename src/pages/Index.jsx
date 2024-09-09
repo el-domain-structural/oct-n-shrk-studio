@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-rainbow-red via-rainbow-yellow to-rainbow-violet">
+    <div className="min-h-screen bg-gradient-to-b from-red-500 to-white">
       <Navigation />
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -26,7 +26,7 @@ const Index = () => {
               <Button className="bg-rainbow-violet hover:bg-rainbow-indigo text-white">Discover the Magic</Button>
             </CardContent>
           </Card>
-          <h2 className="text-2xl font-semibold mb-4 text-white">Our Enchanted Gallery</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-red-700">Our Enchanted Gallery</h2>
           <PhotoGallery />
         </div>
       </div>
