@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { navItems } from '../nav-items';
+import MobileMenu from './MobileMenu';
 
 const Navigation = () => {
   return (
@@ -11,7 +12,7 @@ const Navigation = () => {
           <div className="flex-shrink-0 flex items-center">
             <span className="font-bold text-xl text-white">GOOD FRIENDS</span>
           </div>
-          <div className="hidden sm:flex sm:items-center sm:ml-6 sm:space-x-8">
+          <div className="hidden md:flex md:items-center md:justify-end md:flex-1">
             {navItems.map((item) => (
               <Button key={item.to} asChild variant="ghost" className="text-white hover:bg-white hover:bg-opacity-20">
                 <Link to={item.to} className="inline-flex items-center px-1 pt-1 text-sm font-medium">
@@ -20,6 +21,9 @@ const Navigation = () => {
                 </Link>
               </Button>
             ))}
+          </div>
+          <div className="flex items-center md:hidden">
+            <MobileMenu />
           </div>
         </div>
       </div>
