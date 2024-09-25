@@ -5,24 +5,24 @@ import Footer from '../components/Footer';
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-red-500 to-white">
+    <div className="min-h-screen bg-cyber-background text-cyber-text">
       <Navigation />
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12 text-white">About GOOD FRIENDS FOUNDATION</h1>
-          <Card className="bg-white bg-opacity-80 backdrop-filter backdrop-blur-lg">
+          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">About CYBERNETIC FOUNDATION</h1>
+          <Card className="bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-red-700">Our Magical Story</CardTitle>
+              <CardTitle className="text-cyber-accent">Our Digital Mission</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4 text-red-600">
-                The GOOD FRIENDS FOUNDATION was established in 2023 by a group of unicorn enthusiasts and rainbow chasers. Our mission is simple yet powerful: to spread joy, friendship, and magical experiences throughout the world.
+              <p className="mb-4 text-cyber-text">
+                The CYBERNETIC FOUNDATION was established in 2023 by a group of visionary technologists and futurists. Our mission is to advance the fusion of humanity and technology, pushing the boundaries of what's possible in the digital age.
               </p>
-              <p className="mb-4 text-red-500">
-                We believe that the power of friendship, combined with the magic of unicorns and the beauty of rainbows, can transform communities and inspire positive change. Through our various enchanted programs and sparkling initiatives, we aim to foster connections, encourage empathy, and inspire collective action towards creating a more colorful and harmonious world.
+              <p className="mb-4 text-cyber-text">
+                We believe that through cybernetic enhancements and digital interconnectivity, we can create a more advanced and harmonious society. Our work spans various fields, including artificial intelligence, neural interfaces, and augmented reality.
               </p>
-              <p className="text-red-400">
-                Join us on this magical journey to create a world where every individual feels supported, valued, and connected. Together, we can make a difference, one rainbow at a time!
+              <p className="text-cyber-text">
+                Join us on this cutting-edge journey to shape the future of human-machine interaction. Together, we can build a world where technology amplifies human potential and creates new possibilities for all.
               </p>
             </CardContent>
           </Card>
