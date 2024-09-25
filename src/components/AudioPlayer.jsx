@@ -9,9 +9,19 @@ const AudioPlayer = () => {
   const audioRef = useRef(null);
 
   const playlist = [
-    { title: 'Track 1', src: 'https://example.com/track1.mp3' },
-    { title: 'Track 2', src: 'https://example.com/track2.mp3' },
-    { title: 'Track 3', src: 'https://example.com/track3.mp3' },
+    { 
+      title: 'Vechno 4 (Preview)',
+      src: 'https://octoshark.bandcamp.com/track/vechno-4',
+      isPreview: true
+    },
+    { 
+      title: 'Summer Smoothie',
+      src: 'https://github.com/BelaProDev/playground/raw/refs/heads/main/Summer-Smoothie.mp3'
+    },
+    { 
+      title: 'Bruxelas à Minuit',
+      src: 'https://github.com/BelaProDev/playground/raw/refs/heads/main/Bruxelas%20%C3%A0%20Minuit.mp3'
+    },
   ];
 
   const togglePlay = () => {
@@ -31,6 +41,12 @@ const AudioPlayer = () => {
     setCurrentTrack((currentTrack - 1 + playlist.length) % playlist.length);
   };
 
+  const openPreviewLink = () => {
+    if (playlist[currentTrack].isPreview) {
+      window.open(playlist[currentTrack].src, '_blank');
+    }
+  };
+
   return (
     <div className="winamp-player">
       <div className="winamp-main">
@@ -41,6 +57,11 @@ const AudioPlayer = () => {
         />
         <div className="winamp-info">
           <div className="winamp-title">{playlist[currentTrack].title}</div>
+          {playlist[currentTrack].isPreview && (
+            <button onClick={openPreviewLink} className="winamp-preview-button">
+              Open Preview
+            </button>
+          )}
         </div>
         <div className="winamp-controls">
           <button onClick={playPrevious} className="winamp-button">

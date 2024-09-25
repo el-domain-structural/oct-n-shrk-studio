@@ -24,6 +24,20 @@
   text-overflow: ellipsis;
 }
 
+.winamp-preview-button {
+  background-color: #00ff00;
+  color: #222;
+  border: none;
+  padding: 2px 5px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.winamp-preview-button:hover {
+  background-color: #00cc00;
+}
+
 .winamp-controls {
   display: flex;
   justify-content: space-between;
