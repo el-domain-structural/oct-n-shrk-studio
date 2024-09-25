@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Navigation from '../components/Navigation';
 import PhotoGallery from '../components/PhotoGallery';
 import Footer from '../components/Footer';
-import WorkerCarousel from '../components/WorkerCarousel';
+import ShaderCanvas from '../components/ShaderCanvas';
 
 const Index = () => {
   return (
@@ -24,8 +24,8 @@ const Index = () => {
               <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background">Explore the Future</Button>
             </CardContent>
           </Card>
-          <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Our Augmented Team</h2>
-          <WorkerCarousel />
+          <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Digital Nexus</h2>
+          <ShaderCanvas />
           <h2 className="text-2xl font-semibold my-8 text-cyber-accent">Our Digital Gallery</h2>
           <PhotoGallery />
         </div>
