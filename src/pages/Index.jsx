@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from 'react-router-dom';
 import Navigation from '../components/Navigation';
 import PhotoGallery from '../components/PhotoGallery';
 import Footer from '../components/Footer';
@@ -21,7 +22,9 @@ const Index = () => {
               <p className="mb-4 text-cyber-text">
                 The CYBERNETIC FOUNDATION is dedicated to advancing the fusion of humanity and technology. We believe that through cybernetic enhancements and digital interconnectivity, we can create a more advanced and harmonious society.
               </p>
-              <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background">Explore the Future</Button>
+              <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background" asChild>
+                <Link to="/explore-future">Explore the Future</Link>
+              </Button>
             </CardContent>
           </Card>
           <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Digital Nexus</h2>
