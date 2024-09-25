@@ -8,28 +8,25 @@ import WorkerCarousel from '../components/WorkerCarousel';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-red-500 to-white">
+    <div className="min-h-screen bg-cyber-background text-cyber-text">
       <Navigation />
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12 text-white">GOOD FRIENDS FOUNDATION</h1>
-          <div className="animate-unicorn-fly mb-8">
-            <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32" alt="Flying Unicorn" className="w-32 h-32 mx-auto" />
-          </div>
-          <Card className="mb-8 bg-white bg-opacity-80 backdrop-filter backdrop-blur-lg">
+          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">CYBERNETIC FOUNDATION</h1>
+          <Card className="mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-rainbow-indigo">Our Magical Mission</CardTitle>
+              <CardTitle className="text-cyber-accent">Our Digital Mission</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4 text-rainbow-blue">
-                The GOOD FRIENDS FOUNDATION is dedicated to spreading joy, friendship, and rainbow magic throughout the world. We believe that unicorns, rainbows, and the power of friendship can create a more colorful and harmonious society.
+              <p className="mb-4 text-cyber-text">
+                The CYBERNETIC FOUNDATION is dedicated to advancing the fusion of humanity and technology. We believe that through cybernetic enhancements and digital interconnectivity, we can create a more advanced and harmonious society.
               </p>
-              <Button className="bg-rainbow-violet hover:bg-rainbow-indigo text-white">Discover the Magic</Button>
+              <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background">Explore the Future</Button>
             </CardContent>
           </Card>
-          <h2 className="text-2xl font-semibold mb-4 text-red-700">Our Enchanted Team</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Our Augmented Team</h2>
           <WorkerCarousel />
-          <h2 className="text-2xl font-semibold my-8 text-red-700">Our Enchanted Gallery</h2>
+          <h2 className="text-2xl font-semibold my-8 text-cyber-accent">Our Digital Gallery</h2>
           <PhotoGallery />
         </div>
       </div>
