@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { navItems } from '../nav-items';
 import MobileMenu from './MobileMenu';
+import AudioPlayer from './AudioPlayer';
 
 const Navigation = () => {
   return (
     <nav className="bg-cyber-background border-b border-cyber-accent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16">
+        <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
             <span className="font-bold text-xl text-cyber-text cyber-glitch">CYBERNETIC</span>
           </div>
@@ -22,6 +23,7 @@ const Navigation = () => {
               </Button>
             ))}
           </div>
+          <AudioPlayer />
           <div className="flex items-center md:hidden">
             <MobileMenu />
           </div>
