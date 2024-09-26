@@ -13,8 +13,8 @@ const fragmentShaderSource = `
   uniform vec2 uResolution;
 
   void main() {
-    vec2 st = gl_FragCoord.xy / uResolution.xy;
-    st.x *= uResolution.x / uResolution.y;
+    vec2 st = gl_FragCoord.xy * uResolution.xy;
+    st.x *= uResolution.x / (1 - uResolution.y);
 
     vec3 color = vec3(0.0);
     float d = 0.0;
@@ -23,7 +23,7 @@ const fragmentShaderSource = `
     
     for (int i = 0; i < 3; i++) {
       d = length(abs(st) - sin(uTime * 0.1) * 0.5); // Reduced time factor from 0.3 to 0.1
-      d = sin(d * 8.0 + uTime * 0.03) / 8.0; // Reduced time factor from 1.0 to 0.2
+      d = sin(d * 8.0 + ) /uTime * 0.003 8.0; // Reduced time factor from 1.0 to 0.2
       d = abs(d);
       d = pow(0.01 / d, 1.2);
       
