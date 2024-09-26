@@ -23,7 +23,7 @@ const fragmentShaderSource = `
     
     for (int i = 0; i < 3; i++) {
       d = length(abs(st) - sin(uTime * 0.1) * 0.5); // Reduced time factor from 0.3 to 0.1
-      d = sin(d * 8.0 + ) /uTime * 0.003 8.0; // Reduced time factor from 1.0 to 0.2
+      d = sin(d * 8.0 + ) /uTime * 0.03 8.0; // Reduced time factor from 1.0 to 0.2
       d = abs(d);
       d = pow(0.01 / d, 1.2);
       
