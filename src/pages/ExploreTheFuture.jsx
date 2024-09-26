@@ -1,5 +1,4 @@
 import React from 'react';
-import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import ShaderCanvas from '../components/ShaderCanvas';
 import '../styles/ExploreTheFuture.css';
@@ -7,7 +6,6 @@ import '../styles/ExploreTheFuture.css';
 const ExploreTheFuture = () => {
   return (
     <div className="explore-future-container">
-      <Navigation />
       <div className="explore-future-content">
         <h1 className="explore-future-title cyber-glitch">Explore the Future</h1>
         <div className="explore-future-shader">

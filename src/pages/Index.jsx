@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from 'react-router-dom';
-import Navigation from '../components/Navigation';
 import PhotoGallery from '../components/PhotoGallery';
 import Footer from '../components/Footer';
 import ShaderCanvas from '../components/ShaderCanvas';
@@ -10,7 +9,6 @@ import ShaderCanvas from '../components/ShaderCanvas';
 const Index = () => {
   return (
     <div className="min-h-screen bg-cyber-background text-cyber-text">
-      <Navigation />
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO & SHARK MUSIC</h1>
