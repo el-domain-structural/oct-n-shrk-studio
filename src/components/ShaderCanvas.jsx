@@ -20,19 +20,16 @@ const fragmentShaderSource = `
     float d = 0.0;
 
     st = st * 2.0 - 1.0;
-    
-    float eiyaZ = 2;
 
-    for (int i = 0; i < 3; i++) {
-      d = length(abs(st) - sin(uTime * 0.1) * 0.5); // Reduced time factor from 0.3 to 0.1
-      d = sin(d * 12.0 + uTime * 0.1) / 12.0; // Reduced time factor from 1.0 to 0.2
+    for (int i = 0; i < 3; i++) {      
+      d = length(abs(st) - sin(uTime * 0.3) * 0.5);
+      d = sin(d * 8.0 + uTime) / 8.0;
       d = abs(d);
-      d = pow(0.01 / d, 1.1);
-      eiyaZ = eiyaZ * 0.14134728 - i;
+      d = pow(0.01 / d, 1.2);
       
-      color += vec3(d * 0.2, d * 0.33, d * 0.8);
+      color += vec3(d * 0.7, d * 0.2, d * 1.0);
       st *= 1.2;
-      st = fract(st) - 0.2 + eiyaZ;
+      st = fract(st) - 0.2;
     }
 
     gl_FragColor = vec4(color, 1.0);
