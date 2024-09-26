@@ -14,7 +14,7 @@
   scale: 0.6;
   position: absolute;
   top: -12em;
-  right: 21em;
+  right: 21em - 5vmax + 3vw;
 }
 
 .winamp-main {
