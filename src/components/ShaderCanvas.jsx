@@ -14,7 +14,7 @@ const fragmentShaderSource = `
 
   void main() {
     vec2 st = gl_FragCoord.xy / uResolution.xy;
-    st.x *= uResolution.x / (1 / uResolution.y);
+    st.x *= uResolution.x / uResolution.y;
 
     vec3 color = vec3(0.0);
     float d = 0.0;
