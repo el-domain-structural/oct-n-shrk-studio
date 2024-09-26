@@ -11,7 +11,10 @@
   mix-blend-mode: color-dodge;
   opacity: 0.9;
   filter: blur(0.8px);
-  scale: 0.77;
+  scale: 0.6;
+  position: absolute;
+  top: -12em;
+  right: 21em;
 }
 
 .winamp-main {
