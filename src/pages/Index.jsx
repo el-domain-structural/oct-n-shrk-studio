@@ -30,7 +30,7 @@ const Index = () => {
             <ShaderCanvas />
           </div>
           {/* <h2 className="text-2xl font-semibold my-8 text-cyber-accent">Media</h2> */}
-          <div class="w-3/4 my-4 py-4 scale-95">
+          <div class="w-full my-4 py-4 scale-95">
             <PhotoGallery />
           </div>
         </div>
