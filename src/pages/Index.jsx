@@ -12,16 +12,16 @@ const Index = () => {
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK STUDIO</h1>
-          <Card className="w-2/3 mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
+          <Card className="px-14 mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-cyber-accent">WHEN & WHERE CAN YOU CATCH US ..</CardTitle>
+              <CardTitle className="text-cyber-accent">When & Where can you catch the band</CardTitle>
             </CardHeader>
             <CardContent className="justify-center flex flex-col p-4 m-0.5">
               <p className="mb-4 text-cyber-text rounded-xl flex justify-center">
                 <iframe className="rounded-xl" id="µ3D_CUBE_oct-n-shrk" src="https://octosharkmusic.github.io/" width="93%" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </p>
               <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background" asChild>
-                <Link to="/performing">.. PERFORMING</Link>
+                <Link to="/performing">Performing</Link>
               </Button>
             </CardContent>
           </Card>
