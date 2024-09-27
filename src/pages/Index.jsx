@@ -18,7 +18,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-cyber-text">
-                <iframe id="oct-n-shrk_iframe-3D_CUBE" src="https://octosharkmusic.github.io/" width="100%" height="333px" title="Formulaire de contact" scrolling="no" frameborder="0" style="flex-grow: 1; height: 3330px;" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
+                <iframe id="µ3D_CUBE" src="https://octosharkmusic.github.io/" width="100%" height="333px" title="Floating Cube" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </p>
               <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background" asChild>
                 <Link to="/explore-future">Explore the Future</Link>
