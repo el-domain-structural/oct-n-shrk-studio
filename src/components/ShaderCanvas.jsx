@@ -21,16 +21,18 @@ const fragmentShaderSource = `
 
     st = st * 2.0 - 1.0;
 
-    for (int i = 0; i < 3; i++) {      
+    for (int i = 0; i < 7; i++) {      
       d = length(abs(st) - cos(uTime * 0.3) * 0.5);
-      d = tan(d * 8.0 + (uTime * 0.003)) / abs(st);
-      d = sin(d * 8.0 + (uTime * 0.003)) / 8.0;
+      e = sin(d * 4.0 + (uTime * 0.07)) / 4.0;
+      d = tan(d * 8.0 + (uTime * 0.003)) / 8.0;
       d = abs(d);
-      d = pow(0.01 / d, 1.2);
+      n = e / i;
+      n += i;
+      d = pow(0.01 / d, 1.2 / n);
       
-      color += vec3(d * 0.3, d * 0.02, d * 1.0);
+      color += vec3(d * 0.3, d * 0.02, e * 1.0);
       st *= 1.2;
-      st = fract(st) - 0.2;
+      st = fract(st) - e;
     }
 
     gl_FragColor = vec4(color, 1.0);
