@@ -19,14 +19,14 @@ const fragmentShaderSource = `
     vec3 color = vec3(0.0);
     float d = 0.0;
     float e = 0.0;
-    float n = 0.0;
+    float n = 0.4;
 
     st = st * 2.0 - 1.0;
 
     for (int i = 0; i < 7; i++) {      
       d = length(abs(st) - cos(uTime * 0.3) * 0.5);
       e = sin(d * 4.0 + (uTime * 0.07)) / 4.0;
-      d = tan(d * 8.0 + (uTime * 0.003)) / 8.0;
+      d *= tan(d * 8.0 + (uTime * 0.003)) / 8.0;
       d = abs(d);
       n = e / i;
       n += i;
