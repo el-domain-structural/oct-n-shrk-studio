@@ -116,7 +116,7 @@ const ShaderCanvas = () => {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="w-full h-64 rounded-lg" />;
+  return <canvas ref={canvasRef} className="w-full h-64 rounded-lg blur-sm" />;
 };
 
 export default ShaderCanvas;
