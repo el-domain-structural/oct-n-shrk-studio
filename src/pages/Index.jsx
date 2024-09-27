@@ -20,7 +20,7 @@ const Index = () => {
               {/* <p className="mb-4 text-cyber-text rounded-xl flex justify-center"> */}
               <iframe className="m-3 p-1 rounded-xl backdrop-opacity-60 backdrop-invert hover:bg-white/30 bg-blue/50 mix-blend-luminosity z-0" id="µ3D_CUBE_oct-n-shrk" src="https://octosharkmusic.github.io/" width="94%" height="512px" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               {/* </p> */}
-              <Button className="bg-cyber-accent hover:bg-cyber-text/30 hover:text-cyber-background/90 hover:outline-2 hover:outline hover:outline-cyber-accent/50 text-cyber-background w-1/3" asChild>
+              <Button className="bg-cyber-accent hover:bg-cyber-background hover:text-cyber-background hover:outline-4 hover:outline hover:outline-white text-cyber-background w-1/3" asChild>
                 <Link to="/performing">Performing</Link>
               </Button>
             </CardContent>
