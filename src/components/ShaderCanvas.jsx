@@ -18,6 +18,8 @@ const fragmentShaderSource = `
 
     vec3 color = vec3(0.0);
     float d = 0.0;
+    float e = 0.0;
+    float n = 0.0;
 
     st = st * 2.0 - 1.0;
 
