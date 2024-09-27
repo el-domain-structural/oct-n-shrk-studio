@@ -18,7 +18,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-cyber-text">
-                The OCTO&SHARK STUDIO is dedicated to advancing the fusion of humanity and technology. We believe that through Octo & Shark enhancements and digital interconnectivity, we can create a more advanced and harmonious society.
+                <iframe id="oct-n-shrk_iframe-3D_CUBE" src="https://octosharkmusic.github.io/" width="100%" height="333px" title="Formulaire de contact" scrolling="no" frameborder="0" style="flex-grow: 1; height: 3330px;" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </p>
               <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background" asChild>
                 <Link to="/explore-future">Explore the Future</Link>
