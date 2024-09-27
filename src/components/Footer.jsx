@@ -5,7 +5,7 @@ import ShaderCanvas from './ShaderCanvas';
 
 const Footer = () => {
   return (
-    <footer className="bg-cyber-background py-6 mt-12 relative mix-blend-color-dodge opacity-75 brightness-125 scale-95 hover:scale-90 transition-all">
+    <footer className="bg-cyber-background py-6 w-screen mt-12 relative mix-blend-color-dodge opacity-95 brightness-125 scale-95 hover:scale-90 transition-all">
       <div className="absolute inset-2 z-0">
         <ShaderCanvas />
       </div>
