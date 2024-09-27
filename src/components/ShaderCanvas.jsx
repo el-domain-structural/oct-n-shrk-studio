@@ -31,10 +31,10 @@ const fragmentShaderSource = `
       color += vec3(d * 0.3, d * 0.2, d * 1.0);
       st *= 1.8;
       st = fract(st);
-      d = tan(d * 3.0 + (uTime * 0.07)) / 3.0;
+      d = tan(d * 8.0 + (uTime * 0.007)) / 8.0;
       color += vec3(d * 0.3, d * 0.2, d * 1.0);
-      st *= 1.1;
-      st = fract(st/i);
+      st *= 1.7;
+      st = fract(st);
     }
 
     gl_FragColor = vec4(color, 1.0);
@@ -70,10 +70,10 @@ const ShaderCanvas = () => {
     const positionBuffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
     const positions = [
-      -0.8, 1.0,
+      -1.0, 1.0,
        1.0, -1.0,
-       1.0,  -1.0,
-       1.0,  -0.8,
+       -1.0,  1.0,
+       -1.0,  -1.0,
     ];
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
 
@@ -94,9 +94,9 @@ const ShaderCanvas = () => {
     window.addEventListener('resize', resizeCanvas);
 
     const render = (time) => {
-      time *= 0.02; // Convert to seconds
+      time *= 0.002; // Convert to seconds
 
-      gl.clearColor(0.0, 0.2, 0.3, 0.6);
+      gl.clearColor(0.0, 0.0, 0.0, 1.0);
       gl.clear(gl.COLOR_BUFFER_BIT);
 
       gl.useProgram(program);
