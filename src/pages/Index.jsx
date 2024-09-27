@@ -12,22 +12,22 @@ const Index = () => {
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK STUDIO</h1>
-          <Card className="mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
+          <Card className="w-2/3 mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-cyber-accent">Where & When Can You Catch</CardTitle>
+              <CardTitle className="text-cyber-accent">WHEN & WHERE CAN YOU CATCH US ..</CardTitle>
             </CardHeader>
-            <CardContent className="justify-center flex p-4 m-0.5">
+            <CardContent className="justify-center flex flex-col p-4 m-0.5">
               <p className="mb-4 text-cyber-text rounded-xl flex justify-center">
                 <iframe className="rounded-xl" id="µ3D_CUBE_oct-n-shrk" src="https://octosharkmusic.github.io/" width="93%" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </p>
               <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background" asChild>
-                <Link to="/performing">Performing</Link>
+                <Link to="/performing">.. PERFORMING</Link>
               </Button>
             </CardContent>
           </Card>
           <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Digital Nexus</h2>
           <ShaderCanvas />
-          <h2 className="text-2xl font-semibold my-8 text-cyber-accent">Our Digital Gallery</h2>
+          <h2 className="text-2xl font-semibold my-8 text-cyber-accent">MEDIA Gallery</h2>
           <PhotoGallery />
         </div>
       </div>
