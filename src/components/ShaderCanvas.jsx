@@ -23,8 +23,8 @@ const fragmentShaderSource = `
 
     for (int i = 0; i < 17; i++) {      
       d = length(abs(st) - sin(uTime * 0.003) * 0.5);
-      d = sin(d / 6.0 + (uTime * 0.003)) / 7.0;
-      d = cos(d * 8.0 + (uTime * 0.003)) / 8.0;
+      d = sin(d / 6.0 + (uTime * 0.03)) / 7.0;
+      d = cos(d * 8.0 + (uTime * 0.03)) / 8.0;
       d = abs(d);
       d = pow(0.01 / d, 1.2);
       
@@ -90,7 +90,7 @@ const ShaderCanvas = () => {
     window.addEventListener('resize', resizeCanvas);
 
     const render = (time) => {
-      time *= 0.01; // Convert to seconds
+      time *= 0.03; // Convert to seconds
 
       gl.clearColor(0.0, 0.0, 0.0, 1.0);
       gl.clear(gl.COLOR_BUFFER_BIT);
