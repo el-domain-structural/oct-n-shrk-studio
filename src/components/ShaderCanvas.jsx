@@ -22,13 +22,13 @@ const fragmentShaderSource = `
     st = st * 2.0 - 1.0;
 
     for (int i = 0; i < 17; i++) {      
-      d = length(abs(st) - cos(uTime * 0.03) * 0.5);
+      d = length(abs(st) - sin(uTime * 0.003) * 0.5);
       d = tan(d * 6.0 + (uTime * 0.0003)) / 6.0;
-      d = sin(d * 8.0 + (uTime * 0.003)) / 8.0;
+      d = cos(d * 8.0 + (uTime * 0.0003)) / 8.0;
       d = abs(d);
-      d = pow(0.01 / d, 1.2 / n);
+      d = pow(0.01 / d, 1.2);
       
-      color += vec3(d * 0.3, d * 0.6, d * 1.0);
+      color += vec3(d * 0.3, d * 0.2, d * 1.0);
       st *= 1.8;
       st = fract(st);
     }
