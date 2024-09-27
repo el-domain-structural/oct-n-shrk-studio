@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center relative z-10">
         <Button asChild className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background">
-          <Link to="/about">Explore Our Digital Realm</Link>
+          <Link to="/bio">Explore Our Digital Realm</Link>
         </Button>
       </div>
     </footer>

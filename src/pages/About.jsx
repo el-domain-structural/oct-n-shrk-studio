@@ -2,12 +2,12 @@ import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Footer from '../components/Footer';
 
-const About = () => {
+const Bio = () => {
   return (
     <div className="min-h-screen bg-cyber-background text-cyber-text">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">About OCTO&SHARK STUDIO</h1>
+          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">Bio OCTO&SHARK STUDIO</h1>
           <Card className="bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
               <CardTitle className="text-cyber-accent">Our Digital Mission</CardTitle>
@@ -31,4 +31,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Bio;

@@ -1,6 +1,6 @@
 import { HomeIcon, InfoIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
-import About from "./pages/About.jsx";
+import Bio from "./pages/Bio.jsx";
 
 export const navItems = [
   {
@@ -10,9 +10,9 @@ export const navItems = [
     page: <Index />,
   },
   {
-    title: "About",
-    to: "/about",
+    title: "Bio",
+    to: "/bio",
     icon: <InfoIcon className="h-4 w-4" />,
-    page: <About />,
+    page: <Bio />,
   },
 ];
