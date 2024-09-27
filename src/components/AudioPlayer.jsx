@@ -48,7 +48,7 @@ const AudioPlayer = () => {
   };
 
   return (
-    <div className="winamp-player">
+    <div className="winamp-player origin-bottom -rotate-12">
       <div className="winamp-main">
         <audio
           ref={audioRef}
