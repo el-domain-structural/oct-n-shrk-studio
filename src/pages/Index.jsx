@@ -13,9 +13,9 @@ const Index = () => {
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK STUDIO</h1>
           <Card className="px-14 mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
-            <CardHeader>
+            {/* <CardHeader>
               <CardTitle className="text-cyber-accent">When & Where can you catch the band</CardTitle>
-            </CardHeader>
+            </CardHeader> */}
             <CardContent className="justify-center flex flex-col p-4 m-0.5">
               <p className="mb-4 text-cyber-text rounded-xl flex justify-center">
                 <iframe className="rounded-xl" id="µ3D_CUBE_oct-n-shrk" src="https://octosharkmusic.github.io/" width="94%" height="640px" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
