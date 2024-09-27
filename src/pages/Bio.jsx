@@ -14,13 +14,16 @@ const Bio = () => {
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-cyber-text">
-                The OCTO&SHARK STUDIO was established in 2023 by a group of visionary technologists and futurists. Our mission is to advance the fusion of humanity and technology, pushing the boundaries of what's possible in the digital age.
+              To see Alex and Bela on the Decks is a magical Experience. They have shown us how versatile, creative and fun a musical experience can be through their DJ sets, and how powerful the music can be to create unity between one another.  
               </p>
               <p className="mb-4 text-cyber-text">
-                We believe that through Octo & Shark enhancements and digital interconnectivity, we can create a more advanced and harmonious society. Our work spans various fields, including artificial intelligence, neural interfaces, and augmented reality.
+              French Djs and Music producers since 2008. Coming from the underground European Rave scene, they’ve then been playing all over the world bringing new influences into their music.
               </p>
               <p className="text-cyber-text">
-                Join us on this cutting-edge journey to shape the future of human-machine interaction. Together, we can build a world where technology amplifies human potential and creates new possibilities for all.
+              They build their live music with their full intuitiveness as they carve raw material from synthesis. Each live performance lies between strong grooves influenced by house music and cinematic hypnotic sounds of underground techno.🌟 Members of Nolimit Soundsystem.
+              </p>
+              <p className="text-cyber-text">
+              They have released music on the Berliner Label Drosssel featuring a track with the famous Salvador Araguaya and Meraki. And on Tikal Sound Records famous for realeasing the best of European underground Techno.
               </p>
             </CardContent>
           </Card>
