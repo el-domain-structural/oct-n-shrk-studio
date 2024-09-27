@@ -7,10 +7,10 @@ const Bio = () => {
     <div className="min-h-screen bg-cyber-background text-cyber-text">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">Bio OCTO&SHARK STUDIO</h1>
+          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK</h1>
           <Card className="bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-cyber-accent">Who are we ?</CardTitle>
+              <CardTitle className="text-cyber-accent">Who are we</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-cyber-text">
