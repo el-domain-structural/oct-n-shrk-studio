@@ -1,17 +1,17 @@
 import React from 'react';
 import Footer from '../components/Footer';
 import ShaderCanvas from '../components/ShaderCanvas';
-import '../styles/ExploreTheFuture.css';
+import '../styles/Performing.css';
 
-const ExploreTheFuture = () => {
+const Performing = () => {
   return (
     <div className="explore-future-container">
       <div className="explore-future-content">
-        <h1 className="explore-future-title cyber-glitch">Explore the Future</h1>
+        <h1 className="explore-future-title cyber-glitch">Performing</h1>
         <div className="explore-future-shader">
           {/* <ShaderCanvas /> */}
 
-          <iframe id="µ3D_CUBE" src="https://octosharkmusic.github.io/events" width="100%" height="333px" title="Floating Cube" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
+          <iframe id="µ3D_CUBE" src="https://octosharkmusic.github.io/events/" width="100%" height="333px" title="Floating Cube" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               
         </div>
         <p className="explore-future-text">
@@ -38,4 +38,4 @@ const ExploreTheFuture = () => {
   );
 };
 
-export default ExploreTheFuture;
+export default Performing;
