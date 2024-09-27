@@ -8,11 +8,11 @@ import ShaderCanvas from '../components/ShaderCanvas';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-cyber-background text-cyber-text scale-[0.83]">
+    <div className="min-h-screen bg-cyber-background text-cyber-text">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK STUDIO</h1>
-          <Card className="px-14 mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
+          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch scale-[0.83]">OCTO&SHARK STUDIO</h1>
+          <Card className="px-14 mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent scale-[0.83]">
             {/* <CardHeader>
               <CardTitle className="text-cyber-accent">When & Where can you catch the band</CardTitle>
             </CardHeader> */}
