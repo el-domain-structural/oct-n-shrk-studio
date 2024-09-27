@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 const Bio = () => {
   return (
-    <div className="min-h-screen bg-cyber-background text-cyber-text">
+    <div className="min-h-screen bg-cyber-background text-cyber-text transition-all">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK</h1>
