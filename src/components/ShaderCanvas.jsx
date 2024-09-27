@@ -22,7 +22,8 @@ const fragmentShaderSource = `
     st = st * 2.0 - 1.0;
 
     for (int i = 0; i < 3; i++) {      
-      d = length(abs(st) - sin(uTime * 0.3) * 0.5);
+      d = length(abs(st) - cos(uTime * 0.3) * 0.5);
+      d = tan(d * 8.0 + (uTime * 0.003)) / abs(st);
       d = sin(d * 8.0 + (uTime * 0.003)) / 8.0;
       d = abs(d);
       d = pow(0.01 / d, 1.2);
