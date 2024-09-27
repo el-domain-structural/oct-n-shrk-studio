@@ -25,9 +25,9 @@ const Index = () => {
               </Button>
             </CardContent>
           </Card>
-          <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Digital Nexus</h2>
+          <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">What is Coming Soon-ishhh'</h2>
           <ShaderCanvas />
-          <h2 className="text-2xl font-semibold my-8 text-cyber-accent">MEDIA Gallery</h2>
+          <h2 className="text-2xl font-semibold my-8 text-cyber-accent">Media Gallery</h2>
           <PhotoGallery />
         </div>
       </div>
