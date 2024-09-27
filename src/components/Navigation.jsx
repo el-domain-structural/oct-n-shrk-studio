@@ -16,7 +16,7 @@ const Navigation = () => {
           <AudioPlayer />
           <div className="hidden md:flex md:items-center md:justify-end md:flex-1">
             {navItems.map((item) => (
-              <Button key={item.to} asChild variant="ghost" className="w-1/6 text-cyber-text hover:text-cyber-accent hover:opaciy-75 hover:blur-sm hover:backdrop-invert-0 hover:bg-red/15">
+              <Button key={item.to} asChild variant="ghost" className="w-1/8 text-cyber-text hover:text-cyber-accent hover:opaciy-75 hover:blur-sm hover:backdrop-invert-0 hover:bg-red/15">
                 <Link to={item.to} className="inline-flex items-center p-2 text-md font-bold">
                   {item.icon}
                   <span className="ml-2">{item.title}</span>
