@@ -9,7 +9,7 @@ const Performing = () => {
       <div className="explore-future-content">
         <h1 className="explore-future-title cyber-glitch">Performing</h1>
         <div className="explore-future-shader">
-          <iframe id="µ3D_CUBE" src="https://octosharkmusic.github.io/events/" width="100%" height="333px" title="Floating Cube" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
+          <ShaderCanvas />
         </div>
         <p className="explore-future-text">
           Welcome to the cutting edge of cybernetic innovation. Here, we push the boundaries of human-machine interaction,
@@ -18,11 +18,7 @@ const Performing = () => {
         <div className="explore-future-features">
           <div className="feature">
             <h2>AI Integration</h2>
-            <p>
-              <div className="explore-future-shader">
-                <ShaderCanvas />
-              </div>
-            </p>
+            <p>Discover how AI is reshaping our world and enhancing human capabilities.</p>
           </div>
           <div className="feature">
             <h2>Neural Interfaces</h2>
