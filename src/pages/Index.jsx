@@ -25,12 +25,12 @@ const Index = () => {
               </Button>
             </CardContent>
           </Card>
-          <div class="m-1 p-2 border-t border-dashed border-cyber-secondary">
+          <div class="m-1 p-2 border-t-2 border-solid border-cyber-secondary">
           {/* <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">Highlight</h2> */}
             <ShaderCanvas />
           </div>
           {/* <h2 className="text-2xl font-semibold my-8 text-cyber-accent">Media</h2> */}
-          <div class="m-1 p-2 border-t border-dashed border-cyber-secondary">
+          <div class="m-1 p-2 border-t-2 border-solid border-cyber-secondary">
             <PhotoGallery />
           </div>
         </div>
