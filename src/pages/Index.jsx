@@ -14,7 +14,7 @@ const Index = () => {
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK STUDIO</h1>
           <Card className="mb-8 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-cyber-accent">Our Digital Mission</CardTitle>
+              <CardTitle className="text-cyber-accent">Where & When Can You Catch</CardTitle>
             </CardHeader>
             <CardContent className="justify-center flex p-4 m-0.5">
               <p className="mb-4 text-cyber-text rounded-xl flex justify-center">
