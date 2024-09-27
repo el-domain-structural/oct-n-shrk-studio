@@ -7,14 +7,15 @@ const Bio = () => {
     <div className="min-h-screen bg-cyber-background text-cyber-text">
       <div className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK</h1>
           <Card className="bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-cyber-accent">Who are we</CardTitle>
+              <CardTitle className="text-cyber-accent">
+                <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">OCTO&SHARK</h1>
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-cyber-text">
-              To see Alex and Bela on the Decks is a magical Experience. They have shown us how versatile, creative and fun a musical experience can be through their DJ sets, and how powerful the music can be to create unity between one another.  
+              Alex and Bela on the Decks is a magical Experience. They have shown us how versatile, creative and fun a musical experience can be through their DJ sets, and how powerful the music can be to create unity between one another.  
               </p>
               <p className="mb-4 text-cyber-text">
               French Djs and Music producers since 2008. Coming from the underground European Rave scene, they’ve then been playing all over the world bringing new influences into their music.
