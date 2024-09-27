@@ -16,9 +16,9 @@ const Index = () => {
             <CardHeader>
               <CardTitle className="text-cyber-accent">Our Digital Mission</CardTitle>
             </CardHeader>
-            <CardContent>
-              <p className="mb-4 text-cyber-text rounded flex justify-center">
-                <iframe class="rounded" id="µ3D_CUBE_oct-n-shrk" src="https://octosharkmusic.github.io/" width="52%" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
+            <CardContent className="justify-center flex p-4 m-0.5">
+              <p className="mb-4 text-cyber-text rounded-xl flex justify-center">
+                <iframe className="rounded-xl" id="µ3D_CUBE_oct-n-shrk" src="https://octosharkmusic.github.io/" width="93%" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </p>
               <Button className="bg-cyber-accent hover:bg-cyber-text hover:text-cyber-background text-cyber-background" asChild>
                 <Link to="/performing">Performing</Link>
