@@ -5,7 +5,7 @@ import '../styles/Performing.css';
 
 const Performing = () => {
   return (
-    <div className="explore-future-container transition-all">
+    <div className="explore-future-container">
       <div className="explore-future-content">
         <h1 className="explore-future-title cyber-glitch">Performing</h1>
         <div className="explore-future-shader">
