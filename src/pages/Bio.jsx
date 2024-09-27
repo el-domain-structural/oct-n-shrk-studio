@@ -10,7 +10,7 @@ const Bio = () => {
           <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">Bio OCTO&SHARK STUDIO</h1>
           <Card className="bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border border-cyber-accent">
             <CardHeader>
-              <CardTitle className="text-cyber-accent">Our Digital Mission</CardTitle>
+              <CardTitle className="text-cyber-accent">Who We Are</CardTitle>
             </CardHeader>
             <CardContent>
               <p className="mb-4 text-cyber-text">
