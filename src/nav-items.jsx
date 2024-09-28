@@ -1,6 +1,7 @@
-import { HomeIcon, InfoIcon } from "lucide-react";
+import { HomeIcon, InfoIcon, ContactIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Bio from "./pages/Bio.jsx";
+import Contact from "./pages/Contact.jsx";
 
 export const navItems = [
   {
