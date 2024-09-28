@@ -15,4 +15,10 @@ export const navItems = [
     icon: <InfoIcon className="h-4 w-4" />,
     page: <Bio />,
   },
+  {
+    title: "Contact",
+    to: "/contact",
+    icon: <ContactIcon className="h-4 w-4" />,
+    page: <Contact />,
+  },
 ];
