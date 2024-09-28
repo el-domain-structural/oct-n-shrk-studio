@@ -14,9 +14,9 @@ const Contact = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="mb-4 text-cyber-text"><a href='alx@oct-n-shrk.studio'></a></p>
-              <p className="mb-4 text-cyber-text"><a href='b3l4@oct-n-shrk.studio'></a></p>
-              <p className="text-cyber-text"><a href='booking@oct-n-shrk.studio'></a></p>
+              <p className="mb-4 text-cyber-text"><a href='mailto:alx@oct-n-shrk.studio'>alx@oct-n-shrk.studio</a></p>
+              <p className="mb-4 text-cyber-text"><a href='mailto:b3l4@oct-n-shrk.studio'>b3l4@oct-n-shrk.studio</a></p>
+              <p className="text-cyber-text"><a href='mailto:booking@oct-n-shrk.studio'></a>booking@oct-n-shrk.studio</p>
               <p className="text-cyber-text">
                 <a href='https://linktr.ee/Octo_Shark'>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" height="16px" style="display: block; width: auto;">
