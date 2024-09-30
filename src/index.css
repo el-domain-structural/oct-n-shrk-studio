@@ -41,7 +41,7 @@
     @apply border-border;
   }
   body {
-    @apply bg-cyber-background text-cyber-text;
+    @apply text-cyber-text;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
