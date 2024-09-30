@@ -1,4 +1,9 @@
 [[redirects]]
+from = "/contact"
+to = "/index.html"
+status = 200
+
+[[redirects]]
 from = "/bio"
 to = "/index.html"
 status = 200
