@@ -12,7 +12,7 @@ const Index = () => {
     <div className="min-h-screen bg-cyber-background text-cyber-text">
       <div className="fullscreen-video-container">
         <video autoplay loop muted>
-          <source src="https://download.eu-west-3.fromsmash.co/transfer/gDVaXLOyqO-ct/file/134bf7410f643111747390d74e20102024a78950?identity=2252a2c8de7c229dabd2392d230732b0-02b36e54cbf0cad7eb9da4ada0d73e728dde64e772a84fc571200f628a04c20d7b5f910cc578a05f32e6847cb2f2d5e5b2390b7d6c8d17214e57726a60fc05c8822a2e413bd076640df1a4499280b853&Expires=1727673248&Key-Pair-Id=APKAIM76HR2FWFZRN3HA&Signature=F10LaO6kgiTPF-MR13mdwyyIfOWqQoR5VBiY5ZFFYvrPzGVdvUXI0bLeoNl09UyRVAGNZVPjS9jHXvqREKB6XlwYonPcJ0tqXy2Y2MEMDrDVr3BJE1RDiGZv~ifH5zbhJ03fVu8vpbEDocfcqMbh8of9HgswQsIGKFchrSDcIG~ot~ZEc3f9UUoS2ke1rHq13UmrqCRBx6-Ox-LW6BAD1n-8ufmHJ-MzSNWDSox2Iiq4uPw1E1OGf6IMlfBPTunv2U2mg37MCNwsKXZs2qvcuyWcjgFqJSdwf9ch4WZYqTdsDjdmrdVjbpzuJaDHaxACYYC-BVJLvF8pI6I3te6VSA__" type="video/mp4" />
+          <source src="https://github.com/BelaProDev/playground/raw/refs/heads/main/LOOP_gh054.mp4" type="video/mp4" />
         </video>
         <div className="fullscreen-video-content">
           <div className="py-12 px-4 sm:px-6 lg:px-8">
