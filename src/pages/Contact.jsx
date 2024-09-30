@@ -13,7 +13,7 @@ const Contact = () => {
                 <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch">CONTACT</h1>
               </CardTitle>
             </CardHeader>
-            <CardContent className=" mb-12 flex flex-col justify-center items-center">
+            <CardContent className=" mb-16 flex flex-col justify-center items-center">
               <p className="mb-4 text-cyber-text flex flex-col justify-center items-center"><a href='mailto:alx@oct-n-shrk.studio'>alx@oct-n-shrk.studio</a></p>
               <p className="mb-4 text-cyber-text flex flex-col justify-center items-center"><a href='mailto:b3l4@oct-n-shrk.studio'>b3l4@oct-n-shrk.studio</a></p>
               <p className="text-cyber-text flex flex-col justify-center items-center"><a href='mailto:booking@oct-n-shrk.studio'>booking@oct-n-shrk.studio</a></p>
