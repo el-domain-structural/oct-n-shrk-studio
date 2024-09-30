@@ -10,11 +10,11 @@ const Index = () => {
   return (
     
     <div className="min-h-screen bg-cyber-background text-cyber-text">
-      <div className="fullscreen-video-container">
+      {/* <div className="fullscreen-video-container">
         <video autoplay loop muted>
           <source src="https://github.com/BelaProDev/playground/raw/refs/heads/main/LOOP_gh054.mp4" type="video/mp4" />
         </video>
-        <div className="fullscreen-video-content">
+        <div className="fullscreen-video-content"> */}
           <div className="py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
               {/* <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch scale-[0.63]">OCTO&SHARK STUDIO</h1> */}
@@ -43,8 +43,8 @@ const Index = () => {
           </div>
           <Footer />
         </div>
-      </div>
-    </div>
+      /* </div>
+    </div> */
   );
 };
 

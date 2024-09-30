@@ -45,7 +45,7 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 
-  .fullscreen-video-container {
+  /* .fullscreen-video-container {
     position: relative;
     height: 100vh; 
     width: 100vw;
@@ -62,7 +62,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     z-index : -1;
-  }
+  } */
 }
 
 @layer utilities {
