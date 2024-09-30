@@ -81,7 +81,7 @@ const AudioPlayer = () => {
       </div>
       <Playlist playlist={playlist} currentTrack={currentTrack} setCurrentTrack={setCurrentTrack} />
       <video autoplay loop muted>
-        <source src="https://github.com/BelaProDev/playground/raw/refs/heads/main/LOOP_gh054.mp4" type="video/mp4" />
+        <source src="/LOOP_gh054.mp4" type="video/mp4" />
       </video>
     </div>
   );
