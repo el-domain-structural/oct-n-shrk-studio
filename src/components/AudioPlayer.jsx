@@ -80,7 +80,7 @@ const AudioPlayer = () => {
         </div>
       </div>
       <Playlist playlist={playlist} currentTrack={currentTrack} setCurrentTrack={setCurrentTrack} />
-      <video autoplay loop muted>
+      <video autoplay="true" loop="true" muted="true">
         <source src="/LOOP_gh054.mp4" type="video/mp4" />
       </video>
     </div>
