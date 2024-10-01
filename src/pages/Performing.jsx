@@ -12,21 +12,20 @@ const Performing = () => {
           <ShaderCanvas />
         </div>
         <p className="explore-future-text">
-          Welcome to the cutting edge of cybernetic innovation. Here, we push the boundaries of human-machine interaction,
-          exploring new frontiers in artificial intelligence, neural interfaces, and augmented reality.
+          3 Main Gigs ( 2024 / 2025 )
         </p>
         <div className="explore-future-features">
           <div className="feature">
-            <h2>AI Integration</h2>
-            <p>Discover how AI is reshaping our world and enhancing human capabilities.</p>
+            <h2>Nov. Europ. Rave Dj-Set</h2>
+            <p>...</p>
           </div>
           <div className="feature">
-            <h2>Neural Interfaces</h2>
+            <h2>NY. French Alps. Club Dj-Set</h2>
             <p>Explore direct brain-computer connections that unlock new potentials.</p>
           </div>
           <div className="feature">
-            <h2>Augmented Reality</h2>
-            <p>Experience a world where digital and physical realities seamlessly merge.</p>
+            <h2>Spring Live-Act + Rave LIVE SET. Secret Location</h2>
+            <p>w. Ana Simon. Flute</p>
           </div>
         </div>
       </div>
