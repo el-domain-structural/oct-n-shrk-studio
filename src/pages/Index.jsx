@@ -18,7 +18,7 @@ const Index = () => {
           <div className="py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
               <h1 className="text-4xl font-bold text-center mb-12 text-cyber-accent cyber-glitch scale-[0.63]">WELCOME</h1>
-              <Card className="p-4 mb-2 md:mb-4 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border-[3px] border-cyber-accent hover:border-2 hover:border-cyber-secondary transition duration-75 hover:duration-300 scale-[0.86]">
+              <Card className="my-4 mb-2 md:mb-4 bg-cyber-secondary bg-opacity-20 backdrop-filter backdrop-blur-lg border-[3px] border-cyber-accent hover:border-2 hover:border-cyber-secondary transition duration-75 hover:duration-300 scale-[0.86]">
                 {/* <CardHeader>
                   <CardTitle className="text-cyber-accent">Three.Js Cube</CardTitle>
                 </CardHeader> */}
@@ -33,7 +33,7 @@ const Index = () => {
               </Card>
               <div class="w-full my-4 py-4 scale-95">
                 <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">MUSIC</h2>
-                <iframe className="rounded-xl backdrop-opacity-60 backdrop-invert hover:bg-white/30 bg-blue/50 mix-blend-luminosity z-20" id="plgrnd23_oct-n-shrk" src="https://oct-n-shrk.media" width="54%" height="606px" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
+                <iframe className="rounded-xl backdrop-opacity-60 backdrop-invert hover:bg-white/30 bg-blue/50 mix-blend-luminosity z-20" id="plgrnd23_oct-n-shrk" src="https://oct-n-shrk.media" width="100%%" height="707px" title="Floating Cube - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </div>
               <h2 className="text-2xl font-semibold my-8 text-cyber-accent">VISUALS</h2>
               <div class="w-full my-4 py-4 scale-95">
