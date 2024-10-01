@@ -7,25 +7,25 @@ const Performing = () => {
   return (
     <div className="explore-future-container">
       <div className="explore-future-content">
-        <h1 className="explore-future-title cyber-glitch">Performing</h1>
+        <h1 className="explore-future-title cyber-glitch">Up Soon :</h1>
         <div className="explore-future-shader">
           <ShaderCanvas />
         </div>
         <p className="explore-future-text">
-          3 Main Gigs ( 2024 / 2025 )
+          Main Gigs ( 2024 / 2025 )
         </p>
         <div className="explore-future-features">
           <div className="feature">
             <h2>Nov. Europ. Rave Dj-Set</h2>
-            <p>...</p>
+            <p><a href="https://ravethisway.org">Secret Location</a></p>
           </div>
           <div className="feature">
             <h2>NY. French Alps. Club Dj-Set</h2>
-            <p>Explore direct brain-computer connections that unlock new potentials.</p>
+            <p><a href="https://en.wikipedia.org/wiki/Sainte-Foy-Tarentaise">STATION St. Foy</a></p>
           </div>
           <div className="feature">
-            <h2>Spring Live-Act + Rave LIVE SET. Secret Location</h2>
-            <p>w. Ana Simon. Flute</p>
+            <h2>Spring Live-Act - Rave Live-Set</h2>
+            <p><a href="https://ravethisway.org">Secret Location</a></p>
           </div>
         </div>
       </div>
