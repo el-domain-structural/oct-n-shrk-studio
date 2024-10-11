@@ -33,7 +33,7 @@ const Index = () => {
               </Card>
               <div class="w-full my-4 py-4 scale-95">
                 <h2 className="text-2xl font-semibold mb-4 text-cyber-accent">MUSIC</h2>
-                <iframe className="rounded-xl backdrop-opacity-60 backdrop-invert hover:bg-white/30 bg-blue/50 mix-blend-luminosity z-20" id="plgrnd23_oct-n-shrk" src="https://oct-n-shrk.media" width="100%%" height="808px" title="Media - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
+                <iframe className="rounded-xl backdrop-opacity-60 backdrop-invert hover:bg-white/30 bg-blue/50 mix-blend-luminosity z-20" id="plgrnd23_oct-n-shrk" src="https://oct-n-shrk.media" width="100%%" height="1024px" title="Media - O&S" scrolling="no" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts"></iframe>
               </div>
               <h2 className="text-2xl font-semibold my-8 text-cyber-accent">VISUALS</h2>
               <div class="w-full my-4 py-4 scale-95">
