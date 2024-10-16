@@ -10,4 +10,4 @@ ___
 - Framework : [React](https://react.dev/)
 - UI : [shadcn-ui](https://ui.shadcn.com/)
 - CSS Framework : [Tailwind CSS](https://tailwindcss.com/)
-- Hosting : [Netlify](https://www.netlify.com/)
+- Deployment : [Netlify](https://www.netlify.com/)
