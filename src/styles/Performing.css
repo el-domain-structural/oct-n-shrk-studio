@@ -1,0 +1,62 @@
+.explore-future-container {
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  color: #dadd31;
+  margin-top: 3em;
+  padding: 1em;
+}
+
+.explore-future-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.explore-future-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #ff00ff;
+}
+
+.explore-future-shader {
+  height: 300px;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.explore-future-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.explore-future-features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature {
+  background-color: rgba(0, 255, 0, 0.1);
+  border: 1px solid #00ff00;
+  border-radius: 10px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.3);
+}
+
+.feature h2 {
+  color: #ff00ff;
+  margin-bottom: 1rem;
+}
+
+.feature p {
+  color: #00ff00;
+}

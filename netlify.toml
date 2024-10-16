@@ -1,10 +1,15 @@
 [[redirects]]
-from = "/about"
+from = "/contact"
 to = "/index.html"
 status = 200
 
 [[redirects]]
-from = "/explore-future"
+from = "/bio"
+to = "/index.html"
+status = 200
+
+[[redirects]]
+from = "/performing"
 to = "/index.html"
 status = 200
 

@@ -11,13 +11,13 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0 flex items-center">
-            <a href="https://oct-n-shrk-music.netlify.app/" className="font-bold text-xl text-cyber-text cyber-glitch">OCTO&SHARK STUDIO</a>
+            <a href="https://oct-n-shrk.studio/" className="font-bold text-xl text-cyber-text cyber-glitch z-50">OCTO&SHARK STUDIO</a>
           </div>
           <AudioPlayer />
           <div className="hidden md:flex md:items-center md:justify-end md:flex-1">
             {navItems.map((item) => (
-              <Button key={item.to} asChild variant="ghost" className="text-cyber-text hover:text-cyber-accent hover:bg-cyber-secondary">
-                <Link to={item.to} className="inline-flex items-center px-1 pt-1 text-sm font-medium">
+              <Button key={item.to} asChild variant="ghost" className="w-1/8 text-cyber-text hover:text-cyber-accent hover:opaciy-75 hover:blur-sm hover:backdrop-invert-0 hover:bg-red/15">
+                <Link to={item.to} className="inline-flex items-center p-2 text-md font-bold">
                   {item.icon}
                   <span className="ml-2">{item.title}</span>
                 </Link>

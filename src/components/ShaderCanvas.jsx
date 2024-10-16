@@ -21,15 +21,20 @@ const fragmentShaderSource = `
 
     st = st * 2.0 - 1.0;
 
-    for (int i = 0; i < 3; i++) {      
-      d = length(abs(st) - sin(uTime * 0.3) * 0.5);
-      d = sin(d * 8.0 + (uTime * 0.003)) / 8.0;
+    for (int i = 0; i < 17; i++) {      
+      d = length(abs(st) - sin(uTime * 0.003) * 0.5);
+      d = sin(d / 6.0 + (uTime * 0.007)) / 7.0;
+      d = cos(d * 8.0 + (uTime * 0.007)) / 8.0;
       d = abs(d);
       d = pow(0.01 / d, 1.2);
       
-      color += vec3(d * 0.3, d * 0.02, d * 1.0);
-      st *= 1.2;
-      st = fract(st) - 0.2;
+      color += vec3(d * 0.3, d * 0.2, d * 1.0);
+      st *= 1.8;
+      st = fract(st);
+      d = tan(d * 8.0 + (uTime * 0.007)) / 8.0;
+      color += vec3(d * 0.3, d * 0.2, d * 1.0);
+      st *= 1.7;
+      st = fract(st);
     }
 
     gl_FragColor = vec4(color, 1.0);
@@ -65,10 +70,10 @@ const ShaderCanvas = () => {
     const positionBuffer = gl.createBuffer();
     gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
     const positions = [
-      -1.0, -1.0,
+      -1.0, 1.0,
        1.0, -1.0,
-      -1.0,  1.0,
-       1.0,  1.0,
+       -1.0,  1.0,
+       -1.0,  -1.0,
     ];
     gl.bufferData(gl.ARRAY_BUFFER, new Float32Array(positions), gl.STATIC_DRAW);
 
@@ -89,7 +94,7 @@ const ShaderCanvas = () => {
     window.addEventListener('resize', resizeCanvas);
 
     const render = (time) => {
-      time *= 0.001; // Convert to seconds
+      time *= 0.002; // Convert to seconds
 
       gl.clearColor(0.0, 0.0, 0.0, 1.0);
       gl.clear(gl.COLOR_BUFFER_BIT);
@@ -111,7 +116,7 @@ const ShaderCanvas = () => {
     };
   }, []);
 
-  return <canvas ref={canvasRef} className="w-full h-64 rounded-lg" />;
+  return <canvas ref={canvasRef} className="w-full h-64 rounded-lg blur-sm" />;
 };
 
 export default ShaderCanvas;

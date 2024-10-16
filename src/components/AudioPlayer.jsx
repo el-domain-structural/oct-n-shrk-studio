@@ -48,7 +48,7 @@ const AudioPlayer = () => {
   };
 
   return (
-    <div className="winamp-player">
+    <div className="winamp-player origin-bottom -rotate-12">
       <div className="winamp-main">
         <audio
           ref={audioRef}
@@ -80,6 +80,9 @@ const AudioPlayer = () => {
         </div>
       </div>
       <Playlist playlist={playlist} currentTrack={currentTrack} setCurrentTrack={setCurrentTrack} />
+      <video autoplay="true" loop="true" muted="true">
+        <source src="/LOOP_gh054.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 };
