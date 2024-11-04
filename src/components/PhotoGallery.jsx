@@ -10,7 +10,7 @@ const PhotoGallery = () => {
           <iframe className="aspect-video w-full" src="https://www.youtube.com/embed/ALYZa90ZfJw" title="m44444t 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </CardContent>
       </Card>
-      {[...Array(3)].map((_, index) => (
+      {[...Array(2)].map((_, index) => (
         <Card key={index} className="overflow-hidden transform transition duration-500 hover:scale-105">
           <CardContent className="p-0 h-60">
             <ShaderCanvas />
