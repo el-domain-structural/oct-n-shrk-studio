@@ -2,6 +2,7 @@ import { HomeIcon, InfoIcon, ContactIcon, BookKeyIcon } from "lucide-react";
 import Index from "./pages/Index.jsx";
 import Bio from "./pages/Bio.jsx";
 import Contact from "./pages/Contact.jsx";
+import Performing from "./pages/Performing.jsx";
 
 export const navItems = [
   {
