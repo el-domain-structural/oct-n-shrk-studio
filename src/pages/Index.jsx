@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from 'react-router-dom';
 import PhotoGallery from '../components/PhotoGallery';
+import FilmGallery from '../components/FilmGallery';
 import Footer from '../components/Footer';
 
 const Index = () => {
