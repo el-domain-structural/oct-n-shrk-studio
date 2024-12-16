@@ -8,12 +8,12 @@ const Performing = () => {
   return (
     <div className="explore-future-container">
       <div className="explore-future-content">
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <InstagramEmbed url="https://www.instagram.com/p/CGIOi2fhWSN/" width={860} />
-        </div>
-        <h1 className="explore-future-title cyber-glitch">Up Soon :</h1>
+        <h1 className="explore-future-title cyber-glitch">AGENDA</h1>
         <div className="explore-future-shader">
           <ShaderCanvas />
+        </div>
+        <div className="mb-2" style={{ display: 'flex', justifyContent: 'center' }}>
+          <InstagramEmbed url="https://www.instagram.com/p/CGIOi2fhWSN/" width={860} />
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/C9pjR5iugVR/" width={640} />
