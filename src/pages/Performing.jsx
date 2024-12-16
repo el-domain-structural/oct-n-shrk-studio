@@ -13,7 +13,8 @@ const Performing = () => {
           <ShaderCanvas />
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <InstagramEmbed url="https://www.instagram.com/p/C6l2-9rLLKH/" width={328} />
+          <InstagramEmbed url="https://www.instagram.com/p/C9pjR5iugVR/" width={640} />
+          <InstagramEmbed url="https://www.instagram.com/p/C8jyo6ltw2T/" width={640} />
         </div>
         {/* <p className="explore-future-text">
           Main Gigs ( 2024 / 2025 )
