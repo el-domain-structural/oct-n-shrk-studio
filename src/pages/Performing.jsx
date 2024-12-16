@@ -10,6 +10,7 @@ const Performing = () => {
       <div className="explore-future-content">
         <h1 className="explore-future-title cyber-glitch">Up Soon :</h1>
         <div className="explore-future-shader">
+          <InstagramEmbed url="https://www.instagram.com/p/CGIOi2fhWSN/" width={860} />
           <ShaderCanvas />
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
