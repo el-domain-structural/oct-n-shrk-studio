@@ -7,11 +7,11 @@ const Performing = () => {
   return (
     <div className="explore-future-container">
       <div className="explore-future-content">
-        <h1 className="explore-future-title cyber-glitch">Up Soon :</h1>
+        {/* <h1 className="explore-future-title cyber-glitch">Up Soon :</h1> */}
         <div className="explore-future-shader">
           <ShaderCanvas />
         </div>
-        <p className="explore-future-text">
+        {/* <p className="explore-future-text">
           Main Gigs ( 2024 / 2025 )
         </p>
         <div className="explore-future-features">
@@ -27,7 +27,7 @@ const Performing = () => {
             <h2>Spring Live-Act - Rave Live-Set</h2>
             <p><a href="https://ravethisway.org">Secret Location</a></p>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
