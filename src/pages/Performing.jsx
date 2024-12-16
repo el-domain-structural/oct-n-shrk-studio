@@ -12,7 +12,7 @@ const Performing = () => {
         <div className="explore-future-shader">
           <ShaderCanvas />
         </div>
-        <div className="mb-2" style={{ display: 'flex', justifyContent: 'center' }}>
+        <div className="mb-8" style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/CGIOi2fhWSN/" width={860} />
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
