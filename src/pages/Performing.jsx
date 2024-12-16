@@ -14,6 +14,8 @@ const Performing = () => {
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/C9pjR5iugVR/" width={640} />
+        </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/C8jyo6ltw2T/" width={640} />
         </div>
         {/* <p className="explore-future-text">
