@@ -9,9 +9,9 @@ const Performing = () => {
     <div className="explore-future-container">
       <div className="explore-future-content">
         <h1 className="explore-future-title cyber-glitch">AGENDA</h1>
-        <div className="explore-future-shader">
+        {/* <div className="explore-future-shader">
           <ShaderCanvas />
-        </div>
+        </div> */}
         <div className="mb-14" style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/DDuN6KaofGE/" width={980} />
         </div>
