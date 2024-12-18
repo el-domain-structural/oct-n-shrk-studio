@@ -13,14 +13,14 @@ const Performing = () => {
           <ShaderCanvas />
         </div>
         <div className="mb-14" style={{ display: 'flex', justifyContent: 'center' }}>
-          <InstagramEmbed url="https://www.instagram.com/p/CGIOi2fhWSN/" width={980} />
+          <InstagramEmbed url="https://www.instagram.com/p/DDuN6KaofGE/" width={980} />
         </div>
-        <div className="mb-10" style={{ display: 'flex', justifyContent: 'center' }}>
+        {/* <div className="mb-10" style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/C9pjR5iugVR/" width={860} />
         </div>
         <div className="mb-10" style={{ display: 'flex', justifyContent: 'center' }}>
           <InstagramEmbed url="https://www.instagram.com/p/C8jyo6ltw2T/" width={860} />
-        </div>
+        </div> */}
         {/* <p className="explore-future-text">
           Main Gigs ( 2024 / 2025 )
         </p>
